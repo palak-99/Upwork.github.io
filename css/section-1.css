@@ -1,0 +1,148 @@
+.section_1 {
+    font-size: 1.4rem;
+    position: relative;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+}
+
+.section_1_top {
+    position:fixed;
+    top: 7rem;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 100;
+}
+
+.section_1_top_list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    text-decoration: none solid rgb(0, 30, 0);
+    word-spacing: 0px;
+    background-color: #fff;
+    color: #001e00;
+    height: 64px;
+    width: 1263.33px;
+    padding: 10px 24px 10px 24px;
+    min-height: 64px;
+    min-width: auto;
+}
+
+.section_1_top_list_item {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    text-decoration: none solid rgb(20, 168, 0);
+    text-align: left;
+    color: #001e00;
+    padding: 10px;
+    display: flex;
+}
+
+
+.section_1_top_list_item img {
+    width: 12px;
+    margin-left: 0.5rem;
+}
+
+.section_1_top_list_item:hover {
+    text-decoration: underline solid rgb(0, 30, 0);
+    
+}
+.section_1_top_list_item:last-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.section_1_top_list_item:last-child_img {
+    width: 14px;
+}
+
+.section_1_bottom {
+    position: relative;
+    padding: 0 64px 0 64px;
+}
+
+.section_1_bottom_left h1{
+    color: var(--primary);
+    font-weight: 500;
+    padding-top: 170px;
+}
+
+.section_1_bottom_left h3 {
+    color: var(--grey);
+    line-height: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.section_1_bottom_left_btns button{
+    margin-right: 2rem;
+
+}
+
+.section_1_bottom_left_companies_logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.section_1_bottom_left_companies_logo h4{
+    color: var(--grey-light-2);
+    font-weight: 600;
+    margin-bottom: -22px;
+}
+
+.section_1_bottom_left_companies_logo div {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.section_1_bottom_left_companies_logo div img {
+    height: 2.6rem;
+    max-height: 11rem;
+    margin-right: 3rem;
+    width: auto;
+}
+
+
+
+.section_1_bottom_left_companies_logo div img:nth-child(3) {
+    height: 60px;
+}
+
+.section_1_bottom_right {
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    z-index: 99;
+}
+
+.section_1_bottom_right img {
+    width: 480px;
+}
+
+.btn_secondary {
+    background-color: #108a00;
+    color: #fff;
+    height: 40px;
+    width: 133.667px;
+    border: 2px solid #fff;
+    padding: 0 24px 0 24px;
+     max-height: 40px;
+     min-height: auto;
+     min-width: auto;
+     font-size: 16px;
+     font-weight: 500;
+     letter-spacing: 0.32px;
+     line-height: 39px;
+     white-space: nowrap;
+     word-spacing: 0px;
+     text-decoration: none solid rgb(255, 255, 255);
+     
+}
